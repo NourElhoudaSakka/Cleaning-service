@@ -1,0 +1,599 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    position: absolute;
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    background-color: rgb(209, 209, 209);
+    border-bottom: solid 3px rgb(101, 148, 129);
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 4;
+}
+
+header ul {
+    white-space: nowrap;
+    margin: 5px;
+}
+
+header li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 4px;
+    font-size: 18px;
+    color: rgb(97, 97, 97);
+}
+
+header li.right {
+    position: absolute;
+    right: 3em;
+    top: 38%;
+}
+
+li a.logo {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 40px;
+}
+
+li a.logo:hover {
+    text-decoration: none;
+}
+
+header li img {
+    width: 100%;
+    max-width: 100px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section.slogan {
+    position: absolute;
+    width: 100%;
+    top: 93px;
+    left: 0px;
+    max-width: 4;
+    margin-bottom: 5px;
+    background-color: rgb(87, 87, 87);
+}
+
+section.slogan p {
+    font-size: 18px;
+    font-style: italic;
+    padding: 8px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+section.choice {
+    position: relative;
+    top: 180px;
+    column-count: 2;
+}
+
+section div.container {
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(66, 66, 66);
+}
+
+section div img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+section div.container:hover {
+    position: relative;
+    top: -20px;
+    left: 5px;
+}
+
+
+section div p.description {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section div input.text {
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 15px;
+    padding-right: 60px;
+    border: 0px;
+    background-color: rgb(235, 235, 235);
+    margin-bottom: 10px;
+}
+
+section div a.submit {
+    text-decoration: none;
+    font-family: 'Noto Sans Glagolitic', sans-serif;
+    font-weight: 400;
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 13px;
+    margin: 10px;
+    border: 0px;
+    background-color: rgb(100, 180, 147);
+    color: rgb(255, 255, 255);
+}
+
+
+section.aboutus {
+    position: relative;
+    top: 200px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Noto Sans Glagolitic', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to left, rgb(115, 194, 161), rgb(55, 112, 87));
+    color: rgb(224, 224, 224);
+    text-align: justify;
+}
+
+section.aboutus div {
+    width: 80%;
+    margin-left: 10%;
+}
+
+section.aboutus div.title {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding-bottom: 20px;
+}
+
+section.aboutus div.avantages {
+    column-count: 3;
+    display: inline-block;
+}
+
+section.aboutus div.avantage {
+    margin: 5px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section.aboutus div.avantage img {
+    width: 30%;
+}
+
+section.aboutus div.avantage p.title {
+    font-size: 25px;
+    color: white;
+}
+
+section.team {
+    position: relative;
+    top: 200px;
+    padding: 30px;
+    margin-bottom: 300px;
+    font-size: 20px;
+    font-family: 'Noto Sans Glagolitic', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(66, 66, 66);
+
+}
+
+section.team div.title {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section.team div.members {
+    column-count: 5;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    display: inline-block;
+}
+
+section.team div.member {
+    margin: 5px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section.team div.member img {
+    width: 100%;
+    max-width: 250px;
+}
+
+section.steps {
+    position: relative;
+    margin-bottom: 400px;
+    top: 250px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Noto Sans Glagolitic', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(66, 66, 66);
+    text-align: center;
+}
+
+section.steps div.title {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section.steps div.steps {
+    column-count: 3;
+    display: inline-block;
+}
+
+section.steps div.step {
+    margin-left: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section.steps div.step img {
+    width: 100%;
+    max-width: 130px;
+}
+
+section.client_log_in {
+    position: relative;
+    margin-bottom: 80px;
+    top: 180px;
+    column-count: 2;
+}
+
+section div.container2 {
+    border-radius: 3px;
+    border: lightgray;
+    text-align: left;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section div.container2 p {
+    padding: 10px;
+    margin: 2px 2px 10px 2px;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(66, 66, 66);
+}
+
+section div a.submit_learn_more {
+    text-decoration: none;
+    font-family: 'Noto Sans Glagolitic', sans-serif;
+    font-weight: 400;
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 13px;
+    margin: 10px;
+    border: 0px;
+    background-color: rgb(100, 180, 147);
+    color: rgb(255, 255, 255);
+}
+
+section div a.learn_more {
+    text-decoration: none;
+    font-size: 14px;
+    padding: 13px;
+    border: solid 3px rgb(84, 153, 124);
+    border-radius: 25px;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(84, 153, 124);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+section div.container2 ul {
+    white-space: nowrap;
+    margin: 5px;
+    margin-left: 10px;
+    padding: 2px;
+
+}
+
+section div.container2 li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+section div.container2 a.eval {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+    border: solid 2px black;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+section.agent_join {
+    position: relative;
+    margin-bottom: 300px;
+    top: 200px;
+    text-align: center;
+    background-image: url("produits.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    z-index: 0;
+}
+
+section.agent_join.background-image {
+    opacity: 0.7;
+}
+
+section div.container_form {
+    text-align: center;
+    padding: 80px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    z-index: 1;
+}
+
+section div.container_form input[type=text] {
+    padding: 15px 50px;
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: large;
+}
+
+section div.container_form input[type=date] {
+    padding: 15px 50px;
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: large;
+}
+
+section div.container_form input[type=time] {
+    padding: 15px 50px;
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: large;
+}
+
+section div.container_form label {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(73, 117, 100);
+    text-shadow: 1px 1px 1px rgb(153, 153, 153);
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+section div.container_form input[type=submit] {
+    font-family: 'Noto Sans Glagolitic', sans-serif;
+    font-weight: bolder;
+    border-radius: 30px;
+    font-size: 17px;
+    padding: 15px;
+    margin: 15px;
+    background-color: rgb(63, 63, 63);
+    color: rgb(255, 255, 255);
+    border-width: 0px;
+}
+
+section.agents {
+    position: relative;
+    top: 200px;
+    margin-bottom: 300px;
+    align-self: center;
+}
+
+section.agents div.agents {
+    background-color: rgb(226, 236, 232);
+
+    color: rgb(53, 53, 53);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding: 15px;
+    margin: 10px 200px 50px 200px;
+    max-width: 600px;
+}
+
+section.agents div.agents div.box1 {
+    width: 40%;
+    margin: 10px;
+    display: table-cell;
+    vertical-align: top;
+}
+
+section.agents div.box1 img {
+    width: 100%;
+}
+
+section.agents div.agents div.box2 {
+    width: 70%;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 25px;
+    display: table-cell;
+    vertical-align: top;
+}
+
+section.agents div.agents div.box2 p.name {
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(73, 117, 100);
+    margin-bottom: 10px;
+}
+
+section.agents div.agents div.box2 span.fa {
+    color: white;
+}
+
+section.agents div.agents div.box2 span.checked {
+    color: rgb(73, 117, 100);
+}
+
+section.agents div.agents div.box2 a.partner_submit {
+    font-family: 'Noto Sans Glagolitic', sans-serif;
+    text-align: center;
+    width: 50px;
+    font-weight: 600;
+    border-radius: 25px;
+    font-size: 13px;
+    padding: 10px;
+    margin: 8px;
+    margin-left: 120px;
+    border: 0px;
+    background-color: rgb(100, 180, 147);
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    margin-top: 30px;
+    margin: 0;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(209, 209, 209);
+    border-top: solid 3px rgb(101, 148, 129);
+    color: rgb(97, 97, 97);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: rgb(97, 97, 97);
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: rgb(101, 148, 129);
+    border: 1.1px solid rgb(101, 148, 129);
+    padding: 5px;
+
+    border-radius: 50%;
+
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    width: 20px;
+
+
+    transition: color .4s ease;
+
+}
+
+.socials a:hover i {
+    color: white;
+}
+
+.footer-bottom {
+    background: rgb(87, 87, 87);
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 3;
+    padding: 0px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: white;
+    padding-left: 20px;
+}
+
+.footer-bottom p a {
+    color: rgb(101, 148, 129);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.footer-menu {
+    float: right;
+    padding-right: 20px;
+
+}
+
+.footer-menu ul {
+    display: flex;
+}
+
+.footer-menu ul li {
+    padding-right: 10px;
+    display: block;
+}
+
+.footer-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer-menu ul li a:hover {
+    text-decoration: underline;
+}
