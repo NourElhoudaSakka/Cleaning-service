@@ -597,3 +597,9 @@ footer {
 .footer-menu ul li a:hover {
     text-decoration: underline;
 }
+
+#map{ 
+    position: relative;
+    top: 150px;
+    height:400px;
+}
